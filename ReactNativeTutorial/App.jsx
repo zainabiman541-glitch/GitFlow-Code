@@ -184,14 +184,30 @@
 // export default App
 
 
+// import { View, Text } from 'react-native'
+// import React from 'react'
+// import Hooks from './src/components/Hooks'
+
+// const App = () => {
+//   return (
+//     <View style={{flex:1}}> 
+//       <Hooks/>
+//     </View>
+//   )
+// }
+
+// export default App
+
+
+
 import { View, Text } from 'react-native'
 import React from 'react'
-import Hooks from './src/components/Hooks'
+import UseCallbackHook from './src/components/UseCallbackHook.jsx'
 
 const App = () => {
   return (
-    <View style={{flex:1}}> 
-      <Hooks/>
+    <View>
+       <UseCallbackHook/>
     </View>
   )
 }
